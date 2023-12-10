@@ -40,6 +40,7 @@ var dayCmd = &cobra.Command{
 			}
 			fmt.Println("Input file:", inputFile)
 			// run day1Part1 with input.txt
+			day.day1Part1(inputFile)
 		}
 	},
 }
