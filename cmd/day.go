@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/Billy-Davies-2/aoc-go-2023/day"
 	"github.com/spf13/cobra"
 )
 
@@ -40,6 +41,9 @@ var dayCmd = &cobra.Command{
 			}
 			fmt.Println("Input file:", inputFile)
 			// run day1Part1 with input.txt
+			day.RunDay1Part1(inputFile)
+			// run day1Part2 with input.txt
+			day.RunDay1Part2(inputFile)
 		}
 	},
 }
